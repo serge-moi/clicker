@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clicker</title>
+</head>
+<body>
+    <header>
+        <h1 id="clicTitle">Le clicker pas ouf - CawoCliClic</h1>
+    </header>
+    <main id="main">
+        <section id="secIcon">
+            <div class="iconBox" id="iconPommeBox">
+                <img class="iconImg" src="img/pomme.png" alt="pomme">
+            </div>
+            <div class="iconBox" id="iconBananeBox">
+                <img class="iconImg" src="img/banane.png" alt="banane">
+            </div>
+            <div class="iconBox" id="iconLuffyBox">
+                <img class="iconImg" src="img/luffy.png" alt="luffy">
+            </div>
+            <div class="iconBox" id="iconPikaBox">
+                <img class="iconImg" src="img/pikachu.png" alt="pikachu">
+            </div>
+            <div class="iconBox" id="iconTrumpBox">
+                <img class="iconImg" src="img/trump.png" alt="trump">
+            </div>
+            <div class="iconBox" id="iconSonicBox">
+                <img class="iconImg" src="img/sonic.png" alt="sonic">
+            </div>
+            <div class="iconBox" id="iconLeeBox">
+                <img class="iconImg" src="img/lee.png" alt="lee">
+            </div>
+            <div class="iconBox" id="iconGokuBox">
+                <img class="iconImg" src="img/goku.png" alt="goku">
+            </div>
+            <div class="iconBox" id="iconAllmightBox">
+                <img class="iconImg" src="img/allmight.png" alt="allmight">
+            </div>
+            <div class="iconBox" id="iconSaitamaBox">
+                <img class="iconImg" src="img/saitama.png" alt="saitama">
+            </div>
+        </section>
+        <button id="clic" class="land">
+            <div id="display">0 cawottes</div>
+            <p id="image" class="imgBut1"></p>
+        </button>
+        <aside id="rightBox">
+            <section id="secPersPaysBox">
+                <div class="bigAvatarBox">
+                    <h2 id="titleAside">Les personnages jouables !</h2>
+                    <section id="sectionPerso">
+                        <div id="foxBox" class="avatarBox">
+                            <img id="foxImg" src="img/kyubiHead.png" alt="renard">
+                            
+                            <div id="foxNumberBox" class="text1 numberAvatarBox"></div>
+                        </div>
+                        <div id="renneBox" class="avatarBox">
+                            <img id="renneImg" src="img/renne.png" alt="renne">
+                            
+                            <div id="renneNumberBox" class="text2 numberAvatarBox"></div>
+                        </div>
+                        <div id="cochonBox" class="avatarBox">
+                            <img id="cochonImg" src="img/girl2.png" alt="cochon">
+                            
+                            <div id="cochonNumberBox" class="text3 numberAvatarBox"></div>
+                        </div>
+                        <div id="doraBox" class="avatarBox">
+                            <img id="doraImg" src="img/dora.png" alt="doraemon">
+                            
+                            <div id="doraNumberBox" class="text4 numberAvatarBox"></div>
+                        </div>
+                        <div id="sasukeBox" class="avatarBox">
+                            <img id="sasukeImg" src="img/sasuke.png" alt="sasuke">
+                            
+                            <div id="sasukeNumberBox" class="text5 numberAvatarBox"></div>
+                        </div>
+                    </section>
+                </div>
+                <div class="bigAvatarBox">
+                    <h2 id="titleAside2">Les paysages à découvrir !</h2>
+                    <section id="sectionPays">
+                        <button id="darkLand" class="landBox svg-wrapper" >
+                            <img id="darkLandImg" style='pointer-events: none; display:block;' src="img/fondSombre.jpg" alt="darkPaysage">
+                            <div id="landNumberBox" class="text numberLandBox">???</div>
+                        </button>
+                        <button id="chateauLand" class="landBox svg-wrapper">
+                            <img id="chateauLandImg" style="pointer-events: none; display:block;" src="img/chateau.jpg" alt="chateaudark">
+                            <div id="chateauNumberBox" class="text2psg numberLandBox">???</div>
+                        </button>
+                        <button id="volcanLand" class="landBox svg-wrapper">
+                            <img id="volcanLandImg" style="pointer-events: none; display:block;" src="img/volcan.jpg" alt="volcan">
+                            <div id="volcanNumberBox" class="text3psg numberLandBox">???</div>
+                        </button>
+                        <button id="nuageLand" class="landBox svg-wrapper">
+                            <img id="nuageLandImg" style="pointer-events: none; display:block;" src="img/nuage.jpg" alt="nuage">
+                            <div id="nuageNumberBox" class="text4psg numberLandBox">???</div>
+                        </button>
+                        <button id="fireLand" class="landBox svg-wrapper">
+                            <img id="fireLandImg" style="pointer-events: none; display:block;" src="img/fire.png" alt="feu">
+                            <div id="fireNumberBox" class="text5psg numberLandBox">???</div>
+                        </button>
+                    </section>
+                </div>
+            </section>
+            <h1 id="titleShop">Boutique</h1>
+            <div id="btnBox">
+                <button id="multiply">multiplier / coût: 50</button>
+                <button id="autoclic">autoclic / coût: 500</button>
+                <button id="bonus">bonus / coût: 5000</button>
+            </div>
+        </aside>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/fonctions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
